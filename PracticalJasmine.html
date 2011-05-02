@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<!--
+  Original Project, HTML5 Rocks 'Slides Template' Copyright 2010 Google Inc.
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ 
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+                 Brad Neuberg
+
+  Keydown generates an HTML5 Rocks-style presentation from a Markdown file, adding
+  the ability to full screen backgrounds, CSS overrides, and additional JavaScript.
+
+  Keydown (http://infews.github.com/keydown), Copyright 2010 Infews LLC
+-->
+<html manifest="cache.manifest">
+<head>
+  <!--[if gte IE 9]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/>
+  <![endif]-->
+
+  <meta charset="utf-8"/>
+  <title>PracticalJasmine @ PhillyETE 2011</title>
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css"/>
+
+  <!--
+    Original HTML5 Rocks CSS extracted for readability
+  -->
+  <link href="css/rocks.css" rel="stylesheet" type="text/css"/>
+
+  <!--
+    Keydown provided CSS & your custom CSS
+  -->
+  
+    <link href="css/keydown.css" rel="stylesheet" type="text/css"/>
+  
+    <link href="css/2011.04.28.PhillyETE.PracticalJasmine.css" rel="stylesheet" type="text/css"/>
+  
+
+</head>
+<body>
+<div class="presentation">
+  <div id="presentation-counter"></div>
+  <div class="slides">
+    <!--
+      First slide has Title, Instructions & options. Remove (or display:none) this slide if you like
+    -->
+    <div class="slide">
+      <section class="middle">
+        <h1>PracticalJasmine @ PhillyETE 2011</h1>
+        <p>
+          Press <span class="key"><b>&rarr;</b></span>, scroll, or swipe to advance
+        </p>
+        <h3>
+          Options
+        </h3>
+        <ul>
+          <li>
+            <input type="checkbox" id="toggle-size" />
+            <label for="toggle-size">
+              <span>Grow</span>
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="toggle-transitions" checked/>
+            <label for="toggle-transitions">
+              <span>Transitions</span>
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="toggle-gradients" checked/>
+            <label for="toggle-gradients">
+              <span>Gradients</span>
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="toggle-counter" checked/>
+            <label for="toggle-counter">
+              <span>Slide numbers</span>
+            </label>
+          </li>
+        </ul>
+        <p>
+          Made with <a href="http://infews.github.com/keydown"><b>Keydown</b></a>
+        </p>
+      </section>
+    </div>
+    
+      <div class="slide">
+  <section class="middle small">
+    <h1>Practical Jasmine</h1>
+
+<p><img src="images/jasmine_logo.png" alt="Jasmine Logo" /></p>
+
+<h2>Well-behaved JavaScript BDD</h2>
+
+<h3><a href="mailto:dwfrank@pivotallabs.com">Davis W. Frank</a> | <a href="http://pivotallabs.com">Pivotal Labs</a> | <a href="http://dwf.bigpencil.net">Bio</a></h3>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background Jasmine-aladdin-4918036-1920-1200">
+  <section>
+    
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background s4_jasmine1">
+  <section>
+    
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background tea">
+  <section class="tea">
+    
+
+  </section>
+  <div class="attribution flickr">
+    <a href="http">
+      bmmaran
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>BDD for JavaScript</h1>
+
+<h2>(read: yet another JS unit testing framework)</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>'RSpec for JavaScript'</h1>
+
+<h2><em>Making JavaScript BDD safe for</em></h2>
+
+<h2><em>Rubyists since 2009</em></h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>No DOM</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>No Frameworks</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>No Request/Response</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Where?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <p><img src="images/browser-icons.png" alt="Web Browsers" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <p><img src="images/all-logos.png" alt="Mobile Logos" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <p><img src="images/node-logo.png" alt="node.js" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>How?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>(Follow along at home)</h1>
+
+<h2><a href="https://gist.github.com/944616">https://gist.github.com/944616</a></h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <p><img src="images/red_specs.png" alt="Failing Specs" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// BallSpec.js</span>
+<span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should start deflated&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">expect</span><span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">isFull</span><span class="p">()).</span><span class="nx">toEqual</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// BallSpec.js</span>
+<span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Ball&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">ball</span><span class="p">;</span>
+  
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">ball</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Ball</span><span class="p">();</span>
+  <span class="p">});</span>
+  
+  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should start deflated&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">isFull</span><span class="p">()).</span><span class="nx">toEqual</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// BallSpec.js</span>
+<span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Ball&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="p">...</span>
+  <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;#inflate&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">();</span>
+    <span class="p">});</span>
+    <span class="p">...</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <h1>Disable a spec</h1>
+
+<div class="highlight"><pre><span class="nx">xit</span><span class="p">(</span><span class="s2">&quot;should start deflated&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">expect</span><span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">isFull</span><span class="p">()).</span><span class="nx">toEqual</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <h1>Disable a collection of specs</h1>
+
+<div class="highlight"><pre><span class="nx">xdescribe</span><span class="p">(</span><span class="s2">&quot;#inflate&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="p">...</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Spies</h1>
+
+<h2>mocks, stubs, fakes, doubles</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// GameSpec.js</span>
+<span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Game&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">game</span><span class="p">,</span> <span class="nx">ball</span><span class="p">;</span>
+
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">ball</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Ball</span><span class="p">();</span>
+    <span class="nx">spyOn</span><span class="p">(</span><span class="nx">ball</span><span class="p">,</span> <span class="s1">&#39;inflate&#39;</span><span class="p">).</span><span class="nx">andCallThrough</span><span class="p">();</span>
+    <span class="nx">game</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Game</span><span class="p">();</span>
+  <span class="p">});</span>
+  <span class="p">...</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// GameSpec.js</span>
+<span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Game&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="p">...</span>
+  <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;with a not-full ball&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">game</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="nx">ball</span><span class="p">);</span>
+    <span class="p">});</span>
+
+    <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should inflate before play&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">expect</span><span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">).</span><span class="nx">toHaveBeenCalled</span><span class="p">();</span>
+    <span class="p">});</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <p><img src="images/red_specs.png" alt="Failing Specs" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// Game.js</span>
+<span class="kd">function</span> <span class="nx">Game</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">prepare</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ball</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">isFull</span><span class="p">())</span> <span class="p">{</span>
+      <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">();</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+
+<span class="c1">// Ball.js</span>
+<span class="kd">function</span> <span class="nx">Ball</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">full</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+
+  <span class="k">this</span><span class="p">.</span><span class="nx">inflate</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">full</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="k">this</span><span class="p">.</span><span class="nx">isFull</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">full</span><span class="p">;</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+</pre></div>
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <p><img src="images/green_specs.png" alt="Passing Specs" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Let's Get Practical</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle question">
+    <h2>"How do I manage a big project?"</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Jasmine Gem</h1>
+
+<h2>Better than a barrel of <code>&lt;script&gt;</code></h2>
+
+<h3>It's not just for Ruby projects</h3>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle question">
+    <h2>"How do I perform test</h2>
+
+<h2>setup &amp; teardown?"</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// everything in here will run before each spec</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle question">
+    <h2>"How do I test timer-based code?"</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Use the Mock Clock</h1>
+
+<p><code>jasmine.Clock.useMock()</code></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;A setTimeout&#39;s callback&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">jasmine</span><span class="p">.</span><span class="nx">Clock</span><span class="p">.</span><span class="nx">useMock</span><span class="p">();</span>    
+  <span class="p">});</span>
+
+  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should only be called at the right time&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">expected</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">expected</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    <span class="p">},</span> <span class="mi">100</span><span class="p">);</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">expected</span><span class="p">).</span><span class="nx">toBe</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+    <span class="nx">jasmine</span><span class="p">.</span><span class="nx">Clock</span><span class="p">.</span><span class="nx">tick</span><span class="p">(</span><span class="mi">101</span><span class="p">);</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">expected</span><span class="p">).</span><span class="nx">toBe</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle question">
+    <h2>"How do I test AJAX calls?"</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Setup</h1>
+
+<h2>Stub XHR</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">spyOn</span><span class="p">(</span><span class="nx">jQuery</span><span class="p">.</span><span class="nx">ajaxSettings</span><span class="p">,</span> <span class="s1">&#39;xhr&#39;</span><span class="p">).</span><span class="nx">andCallFake</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">newXhr</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">FakeXMLHttpRequest</span><span class="p">();</span>
+    <span class="nx">ajaxRequests</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">newXhr</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">newXhr</span><span class="p">;</span>
+  <span class="p">});</span>
+
+  <span class="nx">clearAjaxRequests</span><span class="p">();</span>
+<span class="p">});</span>
+</pre></div>
+
+
+<h4>From <a href="http://github.com/pivotal/jasmine-ajax">Jasmine-Ajax</a></h4>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Write your Specs</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;TwitterApi#search&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="kd">var</span> <span class="nx">twitter</span><span class="p">,</span> <span class="nx">request</span><span class="p">,</span> <span class="nx">callbacks</span>
+
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">twitter</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">TwitterApi</span><span class="p">();</span>
+    <span class="nx">callbacks</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">AjaxCallbacks</span><span class="p">();</span>
+
+    <span class="nx">twitter</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="s1">&#39;basketball&#39;</span><span class="p">,</span> <span class="nx">callbacks</span><span class="p">);</span>
+
+    <span class="nx">request</span> <span class="o">=</span> <span class="nx">mostRecentAjaxRequest</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;calls Twitter with the correct url&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">request</span><span class="p">.</span><span class="nx">url</span><span class="p">).</span><span class="nx">toEqual</span><span class="p">(</span><span class="s2">&quot;http://search.twitter.com/search.json?q=basketball&quot;</span><span class="p">)</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+<h4>From <a href="http://github.com/pivotal/jasmine-ajax">Jasmine-Ajax</a></h4>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Use Response Fixtures</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;on success&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">request</span><span class="p">.</span><span class="nx">response</span><span class="p">(</span><span class="nx">TestResponses</span><span class="p">.</span><span class="nx">search</span><span class="p">.</span><span class="nx">success</span><span class="p">);</span>
+  <span class="p">});</span>
+
+  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;calls onSuccess with an array of Tweets&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+    <span class="kd">var</span> <span class="nx">successArgs</span> <span class="o">=</span> <span class="nx">callbacks</span><span class="p">.</span><span class="nx">onSuccess</span><span class="p">.</span><span class="nx">mostRecentCall</span><span class="p">.</span><span class="nx">args</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">callbacks</span><span class="p">.</span><span class="nx">onSuccess</span><span class="p">).</span><span class="nx">toHaveBeenCalledWith</span><span class="p">(</span><span class="nx">jasmine</span><span class="p">.</span><span class="nx">any</span><span class="p">(</span><span class="nb">Array</span><span class="p">));</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">successArgs</span><span class="p">.</span><span class="nx">length</span><span class="p">).</span><span class="nx">toEqual</span><span class="p">(</span><span class="mi">15</span><span class="p">);</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">successArgs</span><span class="p">[</span><span class="mi">0</span><span class="p">]).</span><span class="nx">toEqual</span><span class="p">(</span><span class="nx">jasmine</span><span class="p">.</span><span class="nx">any</span><span class="p">(</span><span class="nx">Tweet</span><span class="p">));</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+<h4>From <a href="http://github.com/pivotal/jasmine-ajax">Jasmine-Ajax</a></h4>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle question">
+    <h2>"How do I write</h2>
+
+<h2>asynchronous specs?"</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Are you writing an Async API?</h1>
+
+<h2>Use <code>waitsFor()</code> &amp; <code>runs()</code></h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="nx">describe</span><span class="p">(</span><span class="s1">&#39;when there are more elements below the currently-selected element&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">blurEvent</span><span class="p">,</span> <span class="nx">focusEvent</span><span class="p">;</span>
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;blur.justKidding&#39;</span><span class="p">,</span>  <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span> <span class="nx">blurEvent</span>  <span class="o">=</span> <span class="nx">e</span><span class="p">;</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;focus.justKidding&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span> <span class="nx">focusEvent</span> <span class="o">=</span> <span class="nx">e</span><span class="p">;</span> <span class="p">})</span>
+  <span class="p">});</span>
+
+  <span class="nx">it</span><span class="p">(</span><span class="s1">&#39;should select the next element&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">runs</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">).</span><span class="nx">simulate</span><span class="p">(</span><span class="s1">&#39;keypress&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">charCode</span><span class="o">:</span> <span class="s1">&#39;j&#39;</span><span class="p">.</span><span class="nx">charCodeAt</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="p">});</span>
+    <span class="p">});</span>
+
+    <span class="nx">waitsFor</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">blurEvent</span> <span class="o">||</span> <span class="nx">focusEvent</span><span class="p">;</span>
+    <span class="p">},</span> <span class="s2">&quot;events to fire&quot;</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+
+    <span class="nx">runs</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">expect</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.current&#39;</span><span class="p">).</span><span class="nx">html</span><span class="p">()).</span><span class="nx">toEqual</span><span class="p">(</span><span class="s1">&#39;Jakob became a crab farmer&#39;</span><span class="p">);</span>
+    <span class="p">});</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+
+<h3><a href="https://gist.github.com/803024">https://gist.github.com/803024</a></h3>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle question">
+    <h2>"How do I share code across tests?"</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>It's JavaScript</h1>
+
+<h2>Use a <code>function</code></h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// SharedBehaviorForGames.js</span>
+<span class="kd">function</span> <span class="nx">sharedBehaviorForGames</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;(shared)&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">ball</span><span class="p">,</span> <span class="nx">game</span><span class="p">;</span>
+    <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">ball</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">ball</span><span class="p">;</span> 
+      <span class="nx">game</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">game</span><span class="p">;</span> 
+    <span class="p">});</span>
+    
+    <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;with a full ball&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">();</span>
+        <span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">.</span><span class="nx">reset</span><span class="p">();</span>      
+        <span class="nx">game</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="nx">ball</span><span class="p">);</span>
+      <span class="p">});</span>
+
+      <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should not inflate before play&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">expect</span><span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">).</span><span class="nx">not</span><span class="p">.</span><span class="nx">toHaveBeenCalled</span><span class="p">();</span>
+      <span class="p">});</span>
+    <span class="p">});</span>
+
+    <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;with a not-full ball&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">game</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="nx">ball</span><span class="p">);</span>
+      <span class="p">});</span>
+
+      <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should inflate before play&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">expect</span><span class="p">(</span><span class="nx">ball</span><span class="p">.</span><span class="nx">inflate</span><span class="p">).</span><span class="nx">toHaveBeenCalled</span><span class="p">();</span>
+      <span class="p">});</span>
+    <span class="p">});</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// FootballGameSpec.js</span>
+<span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Football Game&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">football</span><span class="p">;</span>
+
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> 
+    <span class="nx">football</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="nx">ball</span><span class="o">:</span> <span class="k">new</span> <span class="nx">Football</span><span class="p">,</span>
+      <span class="nx">game</span><span class="o">:</span> <span class="k">new</span> <span class="nx">FootballGame</span>  
+    <span class="p">};</span>
+  <span class="p">});</span>
+
+  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should score a field goal properly&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">football</span><span class="p">.</span><span class="nx">game</span><span class="p">.</span><span class="nx">fieldGoal</span><span class="p">.</span><span class="nx">points</span><span class="p">).</span><span class="nx">toEqual</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span> 
+  <span class="p">});</span>
+
+  <span class="nx">sharedBehaviorForGame</span><span class="p">(</span><span class="nx">football</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    
+
+<div class="highlight"><pre><span class="c1">// BasketballGameSpec.js</span>
+<span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Basketball Game&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">basketball</span><span class="p">;</span>
+
+  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> 
+    <span class="nx">basketball</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="nx">ball</span><span class="o">:</span> <span class="k">new</span> <span class="nx">Basketball</span><span class="p">,</span>
+      <span class="nx">game</span><span class="o">:</span> <span class="k">new</span> <span class="nx">BasketballGame</span>    
+    <span class="p">};</span>
+  <span class="p">});</span>
+
+  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should score a field goal properly&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">expect</span><span class="p">(</span><span class="nx">basketball</span><span class="p">.</span><span class="nx">game</span><span class="p">.</span><span class="nx">fieldGoal</span><span class="p">.</span><span class="nx">points</span><span class="p">).</span><span class="nx">toEqual</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>   
+  <span class="p">});</span>
+
+  <span class="nx">sharedExamplesForGame</span><span class="p">(</span><span class="nx">basketball</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Mobile?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Mobile <em>web</em></h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>...or JS in Native Containers</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Develop in the Browser</h1>
+
+<h2>until you can't</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Test <em>your</em> Code</h1>
+
+<br/><br/>
+
+
+<h1>not the Framework</h1>
+
+<h2>Read <a href="http://www.objectmentor.com/resources/articles/TheHumbleDialogBox.pdf">The Humble Dialog Box</a></h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Questions?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Thanks</h1>
+
+<h2><code>expect(jasmine).toBeDefined();</code></h2>
+
+<p><img src="images/jasmine_logo.png" alt="Jasmine Logo" /></p>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+  </div>
+</div>
+
+<!--
+  Original HTML5 Rocks JavaScript extracted for readability
+-->
+<script src="js/rocks.js" type="text/javascript"></script>
+
+<!--[if lt IE 9]>
+<script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+<script>CFInstall.check({ mode: "overlay" });</script>
+<![endif]-->
+
+<!--
+  Keydown puts your custom JS here
+-->
+
+<script src="js/2011.04.28.PhillyETE.PracticalJasmine.js" type="text/javascript"></script>
+
+
+</body>
+</html>
